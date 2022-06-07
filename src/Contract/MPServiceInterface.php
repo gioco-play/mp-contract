@@ -20,9 +20,10 @@ interface MPServiceInterface {
      * @param string $opCode
      * @param string $account
      * @param string $betId
+     * @param string $language
      * @return mixed
      */
-    function gameDetail(string $opCode, string $account, string $betId);
+    function gameDetail(string $opCode, string $account, string $betId, string $language = '');
 
     /**
      * 抓取遊戲紀錄
